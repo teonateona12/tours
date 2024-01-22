@@ -24,7 +24,7 @@ export const Header = () => {
     <div className="flex justify-between w-full">
       <div>
         <Link to="/" onClick={() => setActive("Home")}>
-          <img className="w-[100px] h-[100px]" src={Logo} />
+          <img className="w-[180px] h-[60px]" src={Logo} />
         </Link>
       </div>
       <div className="flex justify-between gap-5 my-auto ">

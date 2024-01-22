@@ -5,7 +5,9 @@
 #root {
   width: 100%;
 }
-
+h1 {
+  font-family: "Dancing Script", cursive;
+}
 body {
   margin: 0;
   display: flex;
