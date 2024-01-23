@@ -7,6 +7,7 @@ import { About } from "./pages/About";
 import { Footer } from "./components/Footer";
 
 function App() {
+  console.log("Test");
   return (
     <>
       <div className="content">
