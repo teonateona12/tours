@@ -33,7 +33,7 @@ export const Tours = () => {
             className="w-[350px] lg:w-[200px] h-[300px] my-5"
             src={Mtawminda}
           />
-          <h4 className=" md:mt-16 w-[340px] lg:w-full">
+          <h4 className=" md:mt-16 w-[320px] lg:w-full">
             Mtawminda - The Holy Mountain: Begin your Tbilisi adventure with
             breathtaking views from Mtawminda. A perfect spot to start your
             exploration and gain a panoramic perspective of the city.
@@ -45,7 +45,7 @@ export const Tours = () => {
             className="w-[350px] lg:w-[200px] h-[300px] my-5"
             src={BotanicGarden}
           />
-          <h4 className=" md:mt-16 w-[340px] lg:w-full">
+          <h4 className=" md:mt-16 w-[320px] lg:w-full">
             Botanic Garden Escape: Immerse yourself in the tranquility of
             Tbilisi's Botanic Garden. Wander through its diverse landscapes,
             take in the beauty of nature, and find a peaceful retreat in the
@@ -58,7 +58,7 @@ export const Tours = () => {
             className="w-[350px] lg:w-[200px] h-[300px] my-5"
             src={OldTbilisi}
           />
-          <h4 className=" md:mt-16 w-[340px] lg:w-full">
+          <h4 className=" md:mt-16 w-[320px] lg:w-full">
             Old Tbilisi Exploration: Stroll through the historic streets of Old
             Tbilisi, where every corner tells a story. Explore the architecture,
             visit churches, and absorb the unique atmosphere of this charming
@@ -71,7 +71,7 @@ export const Tours = () => {
             className="w-[350px] lg:w-[200px] h-[300px] my-5"
             src={Shopping}
           />
-          <h4 className=" md:mt-16 w-[340px] lg:w-full">
+          <h4 className=" md:mt-16 w-[320px] lg:w-full">
             Shopper's Paradise: Indulge in a shopping spree in Tbilisi's vibrant
             markets and boutiques. Discover traditional crafts, modern designs,
             and unique souvenirs. Our guides can provide tips on the best
@@ -95,7 +95,7 @@ export const Tours = () => {
             className="w-[350px] lg:w-[200px] h-[300px] my-5"
             src={Ananuri}
           />
-          <h4 className=" md:mt-16 w-[340px] lg:w-full">
+          <h4 className=" md:mt-16 w-[320px] lg:w-full">
             Ananuri Fortress Complex: Kick off your journey with a visit to the
             Ananuri Fortress Complex, a historical gem perched on the shores of
             the Zhinvali Reservoir. Explore the medieval architecture and marvel
@@ -109,7 +109,7 @@ export const Tours = () => {
             className="w-[350px] lg:w-[200px] h-[300px] my-5"
             src={CableWays}
           />
-          <h4 className=" md:mt-16 w-[340px] lg:w-full">
+          <h4 className=" md:mt-16 w-[320px] lg:w-full">
             Start your day with an exhilarating cableway ride, offering
             breathtaking aerial views of Gudauri's landscapes. Continue your
             exploration with a visit to the Panorama platform, where you can
@@ -120,7 +120,7 @@ export const Tours = () => {
 
         <div className="flex flex-col gap-4 md:flex-row lg:w-[45%]">
           <img className="w-[350px] lg:w-[200px] h-[300px] my-5" src={Jeep} />
-          <h4 className=" md:mt-16 w-[340px] lg:w-full">
+          <h4 className=" md:mt-16 w-[320px] lg:w-full">
             Embark on a thrilling jeep tour through the rugged landscapes
             surrounding Gudauri. Traverse off-road trails and discover hidden
             corners of the mountains, all while experiencing the adrenaline rush
@@ -133,7 +133,7 @@ export const Tours = () => {
             className="w-[350px] lg:w-[200px] h-[300px] my-5"
             src={Panorama}
           />
-          <h4 className=" md:mt-16 w-[340px] lg:w-full">
+          <h4 className=" md:mt-16 w-[320px] lg:w-full">
             Wrap up your Gudauri Alpine Retreat with a visit to the Panorama
             platform. Marvel at the expansive views of the majestic mountains,
             valleys, and the iconic Friendship Arch. This panoramic spectacle is
@@ -157,7 +157,7 @@ export const Tours = () => {
             className="w-[350px] lg:w-[400px] h-[300px] lg:h-[350px] my-5"
             src={Borjomi2}
           />
-          <h4 className=" md:mt-16 w-[340px] lg:w-full">
+          <h4 className=" md:mt-16 w-[320px] lg:w-full">
             Borjomi: Begin your Bakuriani adventure with a visit to the renowned
             town of Borjomi. Famous for its mineral water springs, take a
             leisurely stroll through the park, and enjoy a sip of the refreshing
@@ -170,7 +170,7 @@ export const Tours = () => {
             className="w-[350px] lg:w-[400px] h-[300px] lg:h-[350px] my-5"
             src={Borjomi3}
           />
-          <h4 className=" md:mt-16 w-[340px] lg:w-full">
+          <h4 className=" md:mt-16 w-[320px] lg:w-full">
             Borjomi Forest: Immerse yourself in the enchanting Borjomi Forest. A
             magical haven filled with towering trees and serene pathways, the
             forest provides a perfect backdrop for a peaceful nature walk.
@@ -182,7 +182,7 @@ export const Tours = () => {
             className="w-[350px] lg:w-[220px] h-[300px] lg:h-[350px] my-5"
             src={Jeep1}
           />
-          <h4 className=" md:mt-16 w-[340px] lg:w-full">
+          <h4 className=" md:mt-16 w-[320px] lg:w-full">
             Jeep Tour: Embark on an exhilarating jeep tour through the rugged
             landscapes surrounding Bakuriani. Traverse off-road trails, witness
             breathtaking vistas, and experience the thrill of an off-road
@@ -195,7 +195,7 @@ export const Tours = () => {
             className="w-[350px] lg:w-[230px] h-[300px] lg:h-[350px] my-5"
             src={CableWays1}
           />
-          <h4 className=" md:mt-16 w-[340px] lg:w-full">
+          <h4 className=" md:mt-16 w-[320px] lg:w-full">
             Cableway Excursion: Soar above the treetops with a scenic cableway
             ride in Bakuriani. Marvel at the panoramic views of the surrounding
             mountains as you ascend to higher altitudes.
