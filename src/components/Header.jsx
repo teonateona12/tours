@@ -5,10 +5,9 @@ import MobilHeader from "../assets/mobileHeader.svg";
 import { MobileHeader } from "./MobileHeader";
 import { Link } from "react-router-dom";
 
-export const Header = () => {
+export const Header = ({ active, setActive }) => {
   const [pageWidth, setPageWidth] = useState(window.innerWidth);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [active, setActive] = useState("Home");
 
   useEffect(() => {
     const handleResize = () => {
@@ -64,7 +63,13 @@ export const Header = () => {
         ) : (
           <img src={MobilHeader} onClick={() => setMobileOpen(!mobileOpen)} />
         )}
-        {mobileOpen && <MobileHeader />}
+        {mobileOpen && (
+          <MobileHeader
+            active={active}
+            setActive={setActive}
+            setMobileOpen={setMobileOpen}
+          />
+        )}
       </div>
     </div>
   );

@@ -10,12 +10,19 @@ export const About = () => {
       <>
         <h2 className=" text-2xl mb-2 ">About us</h2>
         <p>
-          At "Discover Georgia", we believe that travel is not just about
+          At 'Discover Georgia,' we believe that travel is not just about
           visiting new places; it's about immersing yourself in the beauty,
           culture, and experiences that make each destination unique. Our
           journey began with a passion for showcasing the captivating allure of
           Georgia, a state blessed with diverse landscapes, rich history, and
-          warm hospitality.
+          warm hospitality. But that's not all – at 'Discover Georgia,' we
+          understand that each traveler is unique, and preferences vary. That's
+          why we offer the flexibility to tailor your experience to your liking.
+          We can change tour directions and tour days to ensure that your
+          journey with us is personalized and unforgettable. Additionally, we
+          provide seamless transportation services to and from the airport,
+          ensuring a hassle-free start and end to your adventure. Because we
+          believe that travel should be as unique and convenient as you are.
         </p>
         <h2 className=" text-xl mt-5 mb-2 ">Our Mission</h2>
         <p>
@@ -52,7 +59,7 @@ export const About = () => {
         <h2 className=" text-xl mt-5 mb-2 ">Join Us on Your Next Adventure</h2>
         <p>
           Whether you're a nature lover, history buff, or someone seeking a
-          retreat from the hustle and bustle, [Your Company Name] invites you to
+          retreat from the hustle and bustle, "Discover Georgia" invites you to
           embark on a journey through the beauty of Georgia. Let us be your
           guide to the wonders that await, as we create memories that last a
           lifetime. Come, explore with us, and see why Georgia is not just a

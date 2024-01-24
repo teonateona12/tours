@@ -7,7 +7,7 @@ import Borjomi from "../assets/borjomi1.jpg";
 import Arrow from "../assets/arrow.svg";
 import { Link } from "react-router-dom";
 
-export const Home = () => {
+export const Home = ({ setActive }) => {
   return (
     <div className="mt-5">
       <div className="flex flex-col gap-5 md:gap-10">
@@ -22,7 +22,7 @@ export const Home = () => {
             about curating unforgettable travel experiences that immerse you in
             the wonders of this diverse and hospitable country.
           </p>
-          <Link to="/about">
+          <Link to="/about" onClick={() => setActive("About")}>
             <button className="bg-[#BB84E8] py-3 px-5 flex gap-4 mt-3 lg:mt-14 rounded-sm">
               More About Us
               <img className="w-[24px] h-[24px]" src={Arrow} />
@@ -38,40 +38,44 @@ export const Home = () => {
         </h2>
         <div className="flex gap-5 flex-wrap mt-10 ">
           <div className="relative w-fit cursor-pointer lg:w-[43%] m-auto">
-            <img className="w-[400px] h-[538px] lg:w-full" src={Tbilisi} />
-            <Link to="/tbilisi">
+            <Link to="/tours" onClick={() => setActive("Tours")}>
+              <img className="w-[400px] h-[538px] lg:w-full" src={Tbilisi} />
+
               <button className="bg-[#BB84E8] py-3 px-5 flex gap-4 absolute top-0 rounded-sm ">
-                Tbilisi
+                Tours
                 <img className="w-[24px] h-[24px]" src={Arrow} />
               </button>
             </Link>
           </div>
 
           <div className="relative w-fit cursor-pointer lg:w-[43%] m-auto">
-            <img className="w-[400px] h-[538px]  lg:w-full" src={Gudauri} />
-            <Link to="/gudauri">
+            <Link to="/tours" onClick={() => setActive("Tours")}>
+              <img className="w-[400px] h-[538px]  lg:w-full" src={Gudauri} />
+
               <button className="bg-[#BB84E8] py-3 px-5 flex gap-4 absolute top-0 rounded-sm">
-                Gudauri
+                Tours
                 <img className="w-[24px] h-[24px]" src={Arrow} />
               </button>
             </Link>
           </div>
 
           <div className="relative w-fit cursor-pointer lg:w-[43%] m-auto">
-            <img className="w-[400px] h-[538px]  lg:w-full" src={Borjomi} />
-            <Link to="/borjomi">
+            <Link to="/tours" onClick={() => setActive("Tours")}>
+              <img className="w-[400px] h-[538px]  lg:w-full" src={Borjomi} />
+
               <button className="bg-[#BB84E8] py-3 px-5 flex gap-4 absolute top-0 rounded-sm">
-                Borjomi
+                Tours
                 <img className="w-[24px] h-[24px]" src={Arrow} />
               </button>
             </Link>
           </div>
 
           <div className="relative w-fit cursor-pointer lg:w-[43%] m-auto">
-            <img className="w-[400px] h-[538px]  lg:w-full" src={Bakuriani} />
-            <Link to="/bakuriani">
+            <Link to="/tours" onClick={() => setActive("Tours")}>
+              <img className="w-[400px] h-[538px]  lg:w-full" src={Bakuriani} />
+
               <button className="bg-[#BB84E8] py-3 px-5 flex gap-4 absolute top-0 rounded-sm">
-                Bakuriani
+                Tours
                 <img className="w-[24px] h-[24px]" src={Arrow} />
               </button>
             </Link>
