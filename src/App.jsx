@@ -10,7 +10,6 @@ import { Contact } from "./pages/Contact";
 
 function App() {
   const [active, setActive] = useState("Home");
-  console.log("Test");
 
   return (
     <>
