@@ -15,7 +15,7 @@ export const MobileHeader = ({ active, setActive, setMobileOpen }) => {
             Home
           </h5>
         </Link>
-        <Link
+        {/* <Link
           to="/about"
           onClick={() => {
             setActive("About");
@@ -25,7 +25,7 @@ export const MobileHeader = ({ active, setActive, setMobileOpen }) => {
           <h5 className={`text-xl ${active === "About" && "text-[#BB84E8]"}`}>
             About
           </h5>
-        </Link>
+        </Link> */}
         <Link
           to="/tours"
           onClick={() => {
@@ -37,7 +37,7 @@ export const MobileHeader = ({ active, setActive, setMobileOpen }) => {
             Tours
           </h5>
         </Link>
-        <Link
+        {/* <Link
           to="/contact"
           onClick={() => {
             setActive("Contact");
@@ -47,7 +47,7 @@ export const MobileHeader = ({ active, setActive, setMobileOpen }) => {
           <h5 className={`text-xl ${active === "Contact" && "text-[#BB84E8]"}`}>
             Contact
           </h5>
-        </Link>
+        </Link> */}
       </>
     </div>
   );

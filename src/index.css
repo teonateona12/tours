@@ -35,3 +35,36 @@ button {
     padding: 0 77px;
   }
 }
+
+.continuous-slider-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  background-color: #eee;
+  border: 1px solid #ddd;
+}
+
+.active {
+  background-color: #ccc;
+}
+
+.flex-slider {
+  display: flex;
+  flex-direction: row; /* Adjust as needed */
+  align-items: center; /* Adjust as needed */
+}
+
+.flex-slide {
+  flex: 0 0 auto;
+  padding: 0 10px; /* Adjust spacing as needed */
+}
+
+/* Additional styling for your images or other elements if required */
