@@ -1,9 +1,5 @@
 import React from "react";
 import AboutImage from "../assets/home1.jpg";
-import Tbilisi from "../assets/tbilisi1.jpg";
-import Gudauri from "../assets/gudauri1.jpg";
-import Bakuriani from "../assets/bakuriani1.jpg";
-import Borjomi from "../assets/borjomi1.jpg";
 import Arrow from "../assets/arrow.svg";
 import { Link } from "react-router-dom";
 import AboutImg from "../assets/about1.jpg";
@@ -28,7 +24,6 @@ export const Home = ({ setActive }) => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
-  console.log(12);
   return (
     <div className="mt-5">
       <div className="flex flex-col gap-5 md:gap-10">

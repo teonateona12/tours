@@ -16,7 +16,7 @@ import Borjomi3 from "../assets/borjomi3.jpg";
 
 import Mtskheta from "../assets/mtskheta.jpg";
 import Kutaisi from "../assets/kutaisi.jpg";
-import Martvili from "../assets/martvili.jpg";
+import Martvili from "../assets/Martvili.jpg";
 import Batumi from "../assets/batumi.jpg";
 import Kakheti from "../assets/Kakheti.jpeg";
 import Borjomi from "../assets/borjomi2.jpg";
