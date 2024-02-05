@@ -18,7 +18,7 @@ import Mtskheta from "../assets/mtskheta.jpg";
 import Kutaisi from "../assets/kutaisi.jpg";
 import Martvili from "../assets/Martvili.jpg";
 import Batumi from "../assets/batumi.jpg";
-import Kakheti from "../assets/Kakheti.jpeg";
+import Kakheti from "../assets/kakheti.jpeg";
 import Borjomi from "../assets/borjomi2.jpg";
 import Bakuriani from "../assets/bakuriani1.jpg";
 import Gudauri from "../assets/gudauri1.jpg";
