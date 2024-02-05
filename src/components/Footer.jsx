@@ -25,7 +25,7 @@ export const Footer = () => {
               <h5>+995557500678</h5>
             </div>
             <div className="mt-3">
-              <h5>Otar Chaghiashvili</h5>
+              <h5>Omar Chaghiashvili</h5>
               <h5>+995574543543</h5>
             </div>
           </div>
