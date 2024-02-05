@@ -28,6 +28,7 @@ export const Home = ({ setActive }) => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+  console.log(12);
   return (
     <div className="mt-5">
       <div className="flex flex-col gap-5 md:gap-10">
