@@ -10,16 +10,11 @@ export const Footer = () => {
         <div>
           <h1 className=" text-3xl mb-4">Explore the beauty</h1>
           <Link to="/">
-            <h5 className=" text-xl 	">Home</h5>
+            <h5 className=" text-xl">Home</h5>
           </Link>
-          <Link to="/about">
-            <h5 className=" text-xl	">About</h5>
-          </Link>
+
           <Link to="/tours">
             <h5 className=" text-xl">Tours</h5>
-          </Link>
-          <Link to="/contact">
-            <h5 className=" text-xl">Contact</h5>
           </Link>
         </div>
         <div>
@@ -28,6 +23,10 @@ export const Footer = () => {
             <div>
               <h5>Gaga Lapachi</h5>
               <h5>+995557500678</h5>
+            </div>
+            <div className="mt-3">
+              <h5>Omar Chaghiashvili</h5>
+              <h5>+995574543543</h5>
             </div>
           </div>
         </div>
