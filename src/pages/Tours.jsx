@@ -23,6 +23,7 @@ import Borjomi from "../assets/borjomi2.jpg";
 import Bakuriani from "../assets/bakuriani1.jpg";
 import Gudauri from "../assets/gudauri1.jpg";
 import { useState } from "react";
+
 let data = [
   {
     name: "Tbilisi: The Intersection of Tradition and Modernity",
@@ -74,17 +75,15 @@ let data = [
 export const Tours = () => {
   const itemsPerPage = 4;
   const [currentPage, setCurrentPage] = useState(1);
-
   const totalPages = Math.ceil(data.length / itemsPerPage);
-
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
+
   const renderDestinations = () => {
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
     return data.slice(startIndex, endIndex).map((destination, index) => (
-      // Render your destination components here
       <div
         key={index}
         className=" lg:w-[45%] bg-[#e8d9f5] p-5  rounded-md mt-5 lg:mt-0"
@@ -102,7 +101,7 @@ export const Tours = () => {
       </div>
     ));
   };
-  console.log(currentPage);
+
   return (
     <div>
       <h2 className="text-3xl text-center mt-20">Discover Georgia</h2>

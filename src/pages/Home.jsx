@@ -125,7 +125,7 @@ export const Home = ({ setActive }) => {
                   src={Slider1}
                   alt="Slide 1"
                 />
-                <Link to="/tours" onClick={() => setActive("Tours")}>
+                <Link to="/tbilisi" onClick={() => setActive("Tours")}>
                   <button className="py-3 px-0 flex gap-3  rounded-sm ">
                     Tbilisi
                     <img className="w-[20px] h-[20px]" src={Arrow} />
@@ -138,7 +138,7 @@ export const Home = ({ setActive }) => {
                   src={Slider2}
                   alt="Slide 2"
                 />
-                <Link to="/tours" onClick={() => setActive("Tours")}>
+                <Link to="/mtskheta" onClick={() => setActive("Tours")}>
                   <button className="py-3 px-0 flex gap-3  rounded-sm ">
                     Mtskheta
                     <img className="w-[20px] h-[20px]" src={Arrow} />
@@ -151,7 +151,7 @@ export const Home = ({ setActive }) => {
                   src={Slider3}
                   alt="Slide 3"
                 />
-                <Link to="/tours" onClick={() => setActive("Tours")}>
+                <Link to="/mtskheta" onClick={() => setActive("Tours")}>
                   <button className="py-3 px-0 flex gap-3  rounded-sm ">
                     Mtskheta
                     <img className="w-[20px] h-[20px]" src={Arrow} />
@@ -170,7 +170,7 @@ export const Home = ({ setActive }) => {
                   src={Slider4}
                   alt="Slide 1"
                 />
-                <Link to="/tours" onClick={() => setActive("Tours")}>
+                <Link to="/kutaisi" onClick={() => setActive("Tours")}>
                   <button className="py-3 px-0 flex gap-3  rounded-sm ">
                     Kutaisi
                     <img className="w-[20px] h-[20px]" src={Arrow} />
@@ -229,7 +229,7 @@ export const Home = ({ setActive }) => {
                   src={Slider8}
                   alt="Slide 2"
                 />
-                <Link to="/tours" onClick={() => setActive("Tours")}>
+                <Link to="/bakuriani" onClick={() => setActive("Tours")}>
                   <button className="py-3 px-0 flex gap-3  rounded-sm ">
                     Bakuriani
                     <img className="w-[20px] h-[20px]" src={Arrow} />
@@ -242,7 +242,7 @@ export const Home = ({ setActive }) => {
                   src={Slider9}
                   alt="Slide 3"
                 />
-                <Link to="/tours" onClick={() => setActive("Tours")}>
+                <Link to="/gudauri" onClick={() => setActive("Tours")}>
                   <button className="py-3 px-0 flex gap-3  rounded-sm ">
                     Gudauri
                     <img className="w-[20px] h-[20px]" src={Arrow} />
