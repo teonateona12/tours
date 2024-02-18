@@ -13,11 +13,15 @@ import Bodbe from "../assets/bodbe.jpg";
 import Bodbe1 from "../assets/bodbe1.jpeg";
 import Bodbe2 from "../assets/bodbe2.jpg";
 import Bodbe3 from "../assets/bodbe3.jpeg";
-
 import Mtskheta from "../assets/mtskheta.jpg";
 import Mtskheta1 from "../assets/mtskheta1.jpg";
 import Mtskheta2 from "../assets/mtskheta2.jpg";
 import Mtskheta3 from "../assets/mtskheta3.jpg";
+
+import Ananuri from "../assets/ananuri.jpg";
+import Ananuri1 from "../assets/ananuri1.jpg";
+import Ananuri2 from "../assets/ananuri2.jpg";
+import Ananuri3 from "../assets/ananuri3.jpg";
 
 const data = [
   {
@@ -59,6 +63,16 @@ const data = [
     image3: Mtskheta2,
     image4: Mtskheta3,
     link: "https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2Fes4tltVw7F4%3Fsi%3DBsHegaceph93DixZ%26fbclid%3DIwAR2hkMqe5_5bKTm8Id7eAqegxd6n569Sbxu5wKO2VUbWXjDt7LtVPZiJMco&h=AT28VkwR2k2PfXakUBYeZHHOt9vMz0y7FUGJFZVZIQ5OXAU-zhN4fmMyVZaY9dHBJUT3wlUrA0o7cRPimwgyaVP9liEw_b6ML-3jQ7yHBZOxZ9MFFa44q7J-y0qgFQWWOfjx3Q",
+  },
+  {
+    id: "ananuri",
+    name: "Ananuri: Fortress by the Aragvi River",
+    text: "Immerse yourself in history at Ananuri, a fortress perched on the banks of the Aragvi River. Explore the well-preserved architectural wonders, including the Ananuri Castle and churches, dating back to the medieval period. Marvel at the stunning views of the turquoise Zhinvali Reservoir as you step back in time within the walls of this historic complex.",
+    image1: Ananuri,
+    image2: Ananuri1,
+    image3: Ananuri2,
+    image4: Ananuri3,
+    link: "https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2FvOkAP5BziHg%3Fsi%3DeGrNtozfdANEJKba%26fbclid%3DIwAR0uYKhdagwKlr3Bz76PRnTXrx8i1e_kh0PUrumbAkQaVWb3xxqLjjAxOEA&h=AT28VkwR2k2PfXakUBYeZHHOt9vMz0y7FUGJFZVZIQ5OXAU-zhN4fmMyVZaY9dHBJUT3wlUrA0o7cRPimwgyaVP9liEw_b6ML-3jQ7yHBZOxZ9MFFa44q7J-y0qgFQWWOfjx3Q",
   },
 ];
 
