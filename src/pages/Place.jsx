@@ -4,7 +4,7 @@ import Tbilisi from "../assets/tbilisi1.jpg";
 import BotanicGarden from "../assets/botanicGarden.jpg";
 import Mtawminda from "../assets/mtawminda.jpg";
 import OldTbilisi from "../assets/oldTbilisi.jpg";
-
+import Youtube from "../assets/youtube.png";
 const data = [
   {
     id: "tbilisi",
@@ -14,6 +14,7 @@ const data = [
     image2: BotanicGarden,
     image3: Mtawminda,
     image4: OldTbilisi,
+    link: "https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2Ff3lV2SchOX8%3Fsi%3DmFYv9CA28uGMpR-K%26fbclid%3DIwAR09Bz7asBx0jUGEkfEMMPAfZ1Y4SlPAbdVC_koxMQZgkva9NFJ6m1qC0Kc&h=AT28VkwR2k2PfXakUBYeZHHOt9vMz0y7FUGJFZVZIQ5OXAU-zhN4fmMyVZaY9dHBJUT3wlUrA0o7cRPimwgyaVP9liEw_b6ML-3jQ7yHBZOxZ9MFFa44q7J-y0qgFQWWOfjx3Q",
   },
   {
     id: "gudauri",
@@ -26,14 +27,24 @@ export const Place = () => {
   const route = useParams();
   const place = data.find((item) => item.id === route.id);
 
+  const openYoutubeLink = () => {
+    window.open(place.link, "_blank");
+  };
   return (
     <div className=" mt-20">
       <p className=" text-3xl text-center">{place.name}</p>
       <h1 className=" text-center">Explore the beauty</h1>
-      <div className=" flex flex-col md:flex-row mt-3">
-        <p className="md:w-[40%] order-2 flex text-center mt-10 md:mt-0">
-          {place.text}
-        </p>
+      <div className=" flex flex-col md:flex-row mt-5 md:mt-10">
+        <div className="md:w-[40%]">
+          <p className="order-2 flex mt-10 md:mt-0 mb-10">{place.text}</p>
+          <a href="#" onClick={openYoutubeLink}>
+            <p>Explore the beauty in the YouTube link below:</p>
+            <div className=" flex gap-2 ">
+              <img className="w-[24px] h-[24px]" src={Youtube} />
+              <p>Youtube</p>
+            </div>
+          </a>
+        </div>
         <div className=" mt-10 md:mt-0 m-auto order-1 ">
           <div className="flex gap-3">
             <img
