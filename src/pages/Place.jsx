@@ -9,6 +9,10 @@ import Sighnaghi from "../assets/sighnaghi.jpg";
 import Sighnaghi1 from "../assets/sighnaghi1.jpg";
 import Sighnaghi2 from "../assets/sighnaghi2.jpeg";
 import Sighnaghi3 from "../assets/sighnaghi3.jpg";
+import Bodbe from "../assets/Bodbe.jpg";
+import Bodbe1 from "../assets/Bodbe1.jpeg";
+import Bodbe2 from "../assets/Bodbe2.jpg";
+import Bodbe3 from "../assets/Bodbe3.jpeg";
 
 const data = [
   {
@@ -30,6 +34,16 @@ const data = [
     image3: Sighnaghi2,
     image4: Sighnaghi3,
     link: "https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2FGvMyfgoucNo%3Fsi%3DCsgAfbWqwr3n0rZ2%26fbclid%3DIwAR2We_zD81zno0vK78WCfhRUE5kkzLJN9YBzFIXNBLH9REh4_IQEiUQ8hs8&h=AT28VkwR2k2PfXakUBYeZHHOt9vMz0y7FUGJFZVZIQ5OXAU-zhN4fmMyVZaY9dHBJUT3wlUrA0o7cRPimwgyaVP9liEw_b6ML-3jQ7yHBZOxZ9MFFa44q7J-y0qgFQWWOfjx3Q",
+  },
+  {
+    id: "bodbe",
+    name: "Bodbe: Tranquility at the Confluence of Nature and Spirituality",
+    text: "Discover serenity in Bodbe, a place where nature and spirituality converge harmoniously. Visit the St. Nino Monastery, surrounded by lush greenery and blooming gardens. Feel a sense of peace as you stroll through the peaceful grounds and witness the tranquil convergence of nature and religious heritage.",
+    image1: Bodbe,
+    image2: Bodbe1,
+    image3: Bodbe2,
+    image4: Bodbe3,
+    link: "https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutu.be%2FSIvC9craikM%3Fsi%3DGAGaw4E8NxRVMPrI%26fbclid%3DIwAR3U7lZ0De-PQNPGE-pLSFQGVuP8nId74hj9tWcAe1rN8A650zzGFIH820Q&h=AT28VkwR2k2PfXakUBYeZHHOt9vMz0y7FUGJFZVZIQ5OXAU-zhN4fmMyVZaY9dHBJUT3wlUrA0o7cRPimwgyaVP9liEw_b6ML-3jQ7yHBZOxZ9MFFa44q7J-y0qgFQWWOfjx3Q",
   },
 ];
 
