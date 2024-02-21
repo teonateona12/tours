@@ -33,11 +33,23 @@ import Bakuriani from "../assets/bakuriani.jpg";
 import Bakuriani1 from "../assets/bakuriani1.jpg";
 import Bakuriani2 from "../assets/bakuriani2.jpg";
 import Bakuriani3 from "../assets/bakuriani3.jpg";
-
 import Rabati from "../assets/rabati.jpg";
 import Rabati1 from "../assets/rabati1.jpg";
 import Rabati2 from "../assets/rabati2.jpg";
 import Rabati3 from "../assets/rabati3.jpg";
+import Kutaisi from "../assets/kutaisi.jpg";
+import Kutaisi1 from "../assets/kutaisi1.jpg";
+import Kutaisi2 from "../assets/kutaisi2.jpg";
+import Kutaisi3 from "../assets/kutaisi3.jpg";
+import Martvili from "../assets/martvili.jpg";
+import Martvili1 from "../assets/martvili1.jpg";
+import Martvili2 from "../assets/martvili2.jpg";
+import Martvili3 from "../assets/martvili3.jpg";
+
+import Promete from "../assets/promete.jpg";
+import Promete1 from "../assets/promete1.jpg";
+import Promete2 from "../assets/promete2.jpg";
+import Promete3 from "../assets/promete3.jpg";
 
 const data = [
   {
@@ -129,6 +141,36 @@ const data = [
     image3: Rabati2,
     image4: Rabati3,
     link: "https://www.youtube.com/watch?v=5KKdR-f47uw",
+  },
+  {
+    id: "kutaisi",
+    name: "Kutaisi: Gateway to Western Georgia's Rich Heritage",
+    text: "Embark on a journey through Kutaisi, the historic heart of western Georgia, where every cobblestone tells a story. Delve into the mysteries of the Prometheus Cave, a mesmerizing underground wonder. Explore the grandeur of the Bagrati Cathedral and the Gelati Monastery, both UNESCO treasures that showcase the region's rich cultural heritage. Kutaisi invites you to immerse yourself in a tapestry of history, nature, and architectural splendor.",
+    image1: Kutaisi,
+    image2: Kutaisi1,
+    image3: Kutaisi2,
+    image4: Kutaisi3,
+    link: "https://www.youtube.com/watch?v=UyxZoDrOdF4",
+  },
+  {
+    id: "martvili",
+    name: "Martvili: Nature's Marvel and Blue Oasis",
+    text: "Discover the pristine beauty of Martvili, where nature unveils its marvels in vivid blue hues. Immerse yourself in the breathtaking spectacle of the Martvili Canyon, where turquoise waters carve through the lush greenery, creating a visual feast. Martvili invites you to explore its natural wonders, from cascading waterfalls to hidden grottoes, offering an enchanting escape into the heart of Georgia's untouched landscapes.",
+    image1: Martvili,
+    image2: Martvili1,
+    image3: Martvili2,
+    image4: Martvili3,
+    link: "https://www.youtube.com/watch?v=IuY0fCzUZ9A",
+  },
+  {
+    id: "promete",
+    name: "Prometheus Cave: Subterranean Wonderland",
+    text: "Embark on a mesmerizing journey into the depths of Prometheus Cave, a subterranean wonder that unfolds beneath the surface of Georgia. Marvel at the intricate formations of stalactites and stalagmites that create a mystical underground landscape. As you venture through the illuminated chambers, each step reveals the natural beauty and geological marvels that make Prometheus Cave an enchanting destination for explorers and nature enthusiasts alike.",
+    image1: Promete,
+    image2: Promete1,
+    image3: Promete2,
+    image4: Promete3,
+    link: "https://www.youtube.com/watch?v=sVfh2FQdbGc",
   },
 ];
 
