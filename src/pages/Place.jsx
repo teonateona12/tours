@@ -65,7 +65,7 @@ import Vardzia from "../assets/vardzia.jpeg";
 import Vardzia1 from "../assets/vardzia1.jpg";
 import Vardzia2 from "../assets/vardzia2.jpg";
 import Vardzia3 from "../assets/vardzia3.jpeg";
-
+import { useEffect } from "react";
 const data = [
   {
     id: "tbilisi",
@@ -237,6 +237,10 @@ export const Place = () => {
   const openYoutubeLink = () => {
     window.open(place.link, "_blank");
   };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [route.id]);
+
   return (
     <div className=" mt-20">
       <p className=" text-3xl text-center">{place.name}</p>
