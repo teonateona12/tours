@@ -17,11 +17,27 @@ import Mtskheta from "../assets/mtskheta.jpg";
 import Mtskheta1 from "../assets/mtskheta1.jpg";
 import Mtskheta2 from "../assets/mtskheta2.jpg";
 import Mtskheta3 from "../assets/mtskheta3.jpg";
-
 import Ananuri from "../assets/ananuri.jpg";
 import Ananuri1 from "../assets/ananuri1.jpg";
 import Ananuri2 from "../assets/ananuri2.jpg";
 import Ananuri3 from "../assets/ananuri3.jpg";
+import Gudauri from "../assets/gudauri.jpg";
+import Gudauri1 from "../assets/gudauri1.jpg";
+import Gudauri2 from "../assets/gudauri2.jpg";
+import Gudauri3 from "../assets/gudauri3.jpg";
+import Borjomi from "../assets/borjomi.jpg";
+import Borjomi1 from "../assets/borjomi1.jpg";
+import Borjomi2 from "../assets/borjomi2.jpg";
+import Borjomi3 from "../assets/borjomi3.jpg";
+import Bakuriani from "../assets/bakuriani.jpg";
+import Bakuriani1 from "../assets/bakuriani1.jpg";
+import Bakuriani2 from "../assets/bakuriani2.jpg";
+import Bakuriani3 from "../assets/bakuriani3.jpg";
+
+import Rabati from "../assets/rabati.jpg";
+import Rabati1 from "../assets/rabati1.jpg";
+import Rabati2 from "../assets/rabati2.jpg";
+import Rabati3 from "../assets/rabati3.jpg";
 
 const data = [
   {
@@ -73,6 +89,46 @@ const data = [
     image3: Ananuri2,
     image4: Ananuri3,
     link: "https://www.youtube.com/watch?si=eGrNtozfdANEJKba&fbclid=IwAR1uaaqP_6YvEgoylZlm4wmXrygQlEZBBp87JgZMJ7bnxpnSJhj4kcQAa60&v=vOkAP5BziHg&feature=youtu.be",
+  },
+  {
+    id: "gudauri",
+    name: "Gudauri: Alpine Adventure and Mountain Majesty",
+    text: "Embark on an alpine adventure in Gudauri, a mountain paradise nestled in the breathtaking Caucasus. Whether you're a winter sports enthusiast or a nature lover, Gudauri offers a haven for those seeking adventure amid snow-capped peaks. Experience the thrill of skiing or hiking while surrounded by the majestic beauty of Gudauri's pristine landscapes.",
+    image1: Gudauri,
+    image2: Gudauri1,
+    image3: Gudauri2,
+    image4: Gudauri3,
+    link: "https://www.youtube.com/watch?v=J2coBioLsvs",
+  },
+  {
+    id: "borjomi",
+    name: "Borjomi: Rejuvenation in the Heart of Georgia",
+    text: "Indulge in the healing ambiance of Borjomi, renowned for its world-class mineral waters and lush greenery. Explore the Borjomi-Kharagauli National Park, a haven for nature lovers, where rolling hills and pristine landscapes create a serene escape. Immerse yourself in the rejuvenating properties of Borjomi's mineral waters and discover the perfect blend of relaxation and natural beauty.",
+    image1: Borjomi,
+    image2: Borjomi1,
+    image3: Borjomi2,
+    image4: Borjomi3,
+    link: "https://www.youtube.com/watch?v=0Ug8etBDkjY",
+  },
+  {
+    id: "bakuriani",
+    name: "Bakuriani: Alpine Retreat and Winter Wonderland",
+    text: "Escape to the charming alpine retreat of Bakuriani, where the magic of winter unfolds against a backdrop of snow-covered peaks. Whether you're a winter sports enthusiast or seeking a cozy mountain getaway, Bakuriani offers a haven of enchantment. Experience the thrill of skiing, embrace the serenity of the pine-clad landscapes, and revel in the warmth of Bakuriani's welcoming atmosphere.",
+    image1: Bakuriani,
+    image2: Bakuriani1,
+    image3: Bakuriani2,
+    image4: Bakuriani3,
+    link: "https://www.youtube.com/watch?v=b9pUwmtPDWI",
+  },
+  {
+    id: "rabati",
+    name: "Rabati: Fortress of Diversity and Historical Splendor",
+    text: "Step into the captivating world of Rabati, a fortress that stands as a testament to Georgia's rich history and cultural diversity. Explore the well-preserved structures within the fortress walls, from the Rabati Castle to the stunning St. Nicholas Church. With influences from various historical periods, Rabati offers a fascinating journey through time, showcasing the unique blend of architecture and heritage.",
+    image1: Rabati,
+    image2: Rabati1,
+    image3: Rabati2,
+    image4: Rabati3,
+    link: "https://www.youtube.com/watch?v=5KKdR-f47uw",
   },
 ];
 
