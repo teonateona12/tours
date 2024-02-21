@@ -57,6 +57,14 @@ import Svaneti from "../assets/svaneti.jpg";
 import Svaneti1 from "../assets/svaneti1.jpg";
 import Svaneti2 from "../assets/svaneti2.jpg";
 import Svaneti3 from "../assets/svaneti3.jpg";
+import Bateti from "../assets/bateti.jpg";
+import Bateti1 from "../assets/bateti1.jpg";
+import Bateti2 from "../assets/bateti2.jpg";
+import Bateti3 from "../assets/bateti3.jpg";
+import Vardzia from "../assets/vardzia.jpeg";
+import Vardzia1 from "../assets/vardzia1.jpg";
+import Vardzia2 from "../assets/vardzia2.jpg";
+import Vardzia3 from "../assets/vardzia3.jpeg";
 
 const data = [
   {
@@ -189,7 +197,6 @@ const data = [
     image4: Batumi3,
     link: "https://www.youtube.com/watch?v=ETsuzGQ7tPw",
   },
-
   {
     id: "svaneti",
     name: "Svaneti: Majestic Mountains and Timeless Traditions",
@@ -199,6 +206,26 @@ const data = [
     image3: Svaneti2,
     image4: Svaneti3,
     link: "https://www.youtube.com/watch?v=zIDxYeMdAhI",
+  },
+  {
+    id: "bateti",
+    name: "Bateti lake: Tranquility in Nature's Embrace",
+    text: "Embark on a journey to Bateti, a serene lake where tranquility and natural beauty intertwine to create an enchanting escape. Nestled amidst rolling hills and embraced by lush forests, Bateti captivates with its mystic allure. Wander along the tranquil shores and immerse yourself in the reflective calm of its pristine waters.",
+    image1: Bateti,
+    image2: Bateti1,
+    image3: Bateti2,
+    image4: Bateti3,
+    link: "https://www.youtube.com/watch?v=w6iFM1yOJw8",
+  },
+  {
+    id: "vardzia",
+    name: "Vardzia: Cave City and Living Heritage",
+    text: "Embark on a journey to Vardzia, a marvel that seamlessly blends ancient history with the rugged beauty of Georgia's landscapes. Explore the intricate network of cave dwellings carved into the cliffs, a testament to the region's rich heritage. Stand in awe of the panoramic views from the Vardzia complex, where the rocky terrain meets the blue sky. Vardzia invites you to delve into the living history of this cave city and discover the enduring legacy etched into its rocky foundations.",
+    image1: Vardzia,
+    image2: Vardzia1,
+    image3: Vardzia2,
+    image4: Vardzia3,
+    link: "https://www.youtube.com/watch?v=VbvdbCVNl4c",
   },
 ];
 
