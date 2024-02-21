@@ -8,13 +8,21 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider1 from "../assets/slider1.jpg";
 import Slider2 from "../assets/slider2.jpg";
-import Slider3 from "../assets/slider3.jpg";
+import Slider3 from "../assets/sighnaghi.jpg";
 import Slider4 from "../assets/slider4.jpg";
 import Slider5 from "../assets/slider5.jpg";
-import Slider6 from "../assets/slider6.jpg";
-import Slider7 from "../assets/slider7.jpg";
-import Slider8 from "../assets/slider8.jpg";
-import Slider9 from "../assets/slider9.jpg";
+import Batumi from "../assets/batumi.jpg";
+import Bodbe from "../assets/bodbe.jpg";
+import Batumi1 from "../assets/batumi2.jpg";
+import Bakuriani from "../assets/bakuriani.jpg";
+import Gudauri from "../assets/gudauri.jpg";
+import Borjomi from "../assets/borjomi.jpg";
+import Ananuri from "../assets/ananuri.jpg";
+import Rabati from "../assets/rabati.jpg";
+import Martvili from "../assets/martvili.jpg";
+import Svaneti from "../assets/svaneti.jpg";
+import Bateti from "../assets/bateti.jpg";
+import Vardzia from "../assets/vardzia.jpeg";
 
 export const Home = ({ setActive }) => {
   const settings = {
@@ -120,12 +128,13 @@ export const Home = ({ setActive }) => {
           <div>
             <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
               <div>
-                <img
-                  className="w-[400px] h-[200px] rounded-md"
-                  src={Slider1}
-                  alt="Slide 1"
-                />
                 <Link to="/tbilisi" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Slider1}
+                    alt="Slide 1"
+                  />
+
                   <button className="py-3 px-0 flex gap-3  rounded-sm ">
                     Tbilisi
                     <img className="w-[20px] h-[20px]" src={Arrow} />
@@ -133,12 +142,12 @@ export const Home = ({ setActive }) => {
                 </Link>
               </div>
               <div>
-                <img
-                  className="w-[400px] h-[200px] rounded-md"
-                  src={Slider2}
-                  alt="Slide 2"
-                />
                 <Link to="/mtskheta" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Slider2}
+                    alt="Slide 2"
+                  />
                   <button className="py-3 px-0 flex gap-3  rounded-sm ">
                     Mtskheta
                     <img className="w-[20px] h-[20px]" src={Arrow} />
@@ -146,14 +155,14 @@ export const Home = ({ setActive }) => {
                 </Link>
               </div>
               <div>
-                <img
-                  className="w-[400px] h-[200px] rounded-md"
-                  src={Slider3}
-                  alt="Slide 3"
-                />
-                <Link to="/mtskheta" onClick={() => setActive("Tours")}>
+                <Link to="/sighnaghi" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Slider3}
+                    alt="Slide 3"
+                  />
                   <button className="py-3 px-0 flex gap-3  rounded-sm ">
-                    Mtskheta
+                    Sighnaghi
                     <img className="w-[20px] h-[20px]" src={Arrow} />
                   </button>
                 </Link>
@@ -165,12 +174,12 @@ export const Home = ({ setActive }) => {
           <div>
             <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
               <div>
-                <img
-                  className="w-[400px] h-[200px] rounded-md"
-                  src={Slider4}
-                  alt="Slide 1"
-                />
                 <Link to="/kutaisi" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Slider4}
+                    alt="Slide 1"
+                  />
                   <button className="py-3 px-0 flex gap-3  rounded-sm ">
                     Kutaisi
                     <img className="w-[20px] h-[20px]" src={Arrow} />
@@ -178,12 +187,12 @@ export const Home = ({ setActive }) => {
                 </Link>
               </div>
               <div>
-                <img
-                  className="w-[400px] h-[200px] rounded-md"
-                  src={Slider5}
-                  alt="Slide 2"
-                />
-                <Link to="/tours" onClick={() => setActive("Tours")}>
+                <Link to="/promete" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Slider5}
+                    alt="Slide 2"
+                  />
                   <button className="py-3 px-0 flex gap-3  rounded-sm ">
                     Prometheus Cave
                     <img className="w-[20px] h-[20px]" src={Arrow} />
@@ -191,15 +200,15 @@ export const Home = ({ setActive }) => {
                 </Link>
               </div>
               <div>
-                <img
-                  className="w-[400px] h-[200px] rounded-md"
-                  src={Slider6}
-                  alt="Slide 3"
-                />
+                <Link to="/batumi" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Batumi}
+                    alt="Slide 3"
+                  />
 
-                <Link to="/tours" onClick={() => setActive("Tours")}>
                   <button className="py-3 px-0 flex gap-3  rounded-sm ">
-                    Makhuntseti
+                    Batumi
                     <img className="w-[20px] h-[20px]" src={Arrow} />
                   </button>
                 </Link>
@@ -211,25 +220,25 @@ export const Home = ({ setActive }) => {
           <div>
             <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
               <div>
-                <img
-                  className="w-[400px] h-[200px] rounded-md"
-                  src={Slider7}
-                  alt="Slide 1"
-                />
-                <Link to="/tours" onClick={() => setActive("Tours")}>
+                <Link to="/bodbe" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Bodbe}
+                    alt="Slide 1"
+                  />
                   <button className="py-3 px-0 flex gap-3  rounded-sm ">
-                    Sighnaghi
+                    Bodbe
                     <img className="w-[20px] h-[20px]" src={Arrow} />
                   </button>
                 </Link>
               </div>
               <div>
-                <img
-                  className="w-[400px] h-[200px] rounded-md"
-                  src={Slider8}
-                  alt="Slide 2"
-                />
                 <Link to="/bakuriani" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Bakuriani}
+                    alt="Slide 2"
+                  />
                   <button className="py-3 px-0 flex gap-3  rounded-sm ">
                     Bakuriani
                     <img className="w-[20px] h-[20px]" src={Arrow} />
@@ -237,14 +246,149 @@ export const Home = ({ setActive }) => {
                 </Link>
               </div>
               <div>
-                <img
-                  className="w-[400px] h-[200px] rounded-md"
-                  src={Slider9}
-                  alt="Slide 3"
-                />
                 <Link to="/gudauri" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Gudauri}
+                    alt="Slide 3"
+                  />
                   <button className="py-3 px-0 flex gap-3  rounded-sm ">
                     Gudauri
+                    <img className="w-[20px] h-[20px]" src={Arrow} />
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Slide 4 */}
+          <div>
+            <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
+              <div>
+                <Link to="/ananuri" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Ananuri}
+                    alt="Slide 1"
+                  />
+                  <button className="py-3 px-0 flex gap-3  rounded-sm ">
+                    Ananuri
+                    <img className="w-[20px] h-[20px]" src={Arrow} />
+                  </button>
+                </Link>
+              </div>
+              <div>
+                <Link to="/borjomi" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Borjomi}
+                    alt="Slide 2"
+                  />
+                  <button className="py-3 px-0 flex gap-3  rounded-sm ">
+                    Borjomi
+                    <img className="w-[20px] h-[20px]" src={Arrow} />
+                  </button>
+                </Link>
+              </div>
+              <div>
+                <Link to="/rabati" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Rabati}
+                    alt="Slide 3"
+                  />
+                  <button className="py-3 px-0 flex gap-3  rounded-sm ">
+                    Rabati
+                    <img className="w-[20px] h-[20px]" src={Arrow} />
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Slide 5 */}
+          <div>
+            <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
+              <div>
+                <Link to="/martvili" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Martvili}
+                    alt="Slide 1"
+                  />
+                  <button className="py-3 px-0 flex gap-3  rounded-sm ">
+                    Martvili
+                    <img className="w-[20px] h-[20px]" src={Arrow} />
+                  </button>
+                </Link>
+              </div>
+              <div>
+                <Link to="/svaneti" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Svaneti}
+                    alt="Slide 2"
+                  />
+                  <button className="py-3 px-0 flex gap-3  rounded-sm ">
+                    Svaneti
+                    <img className="w-[20px] h-[20px]" src={Arrow} />
+                  </button>
+                </Link>
+              </div>
+              <div>
+                <Link to="/bateti" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Bateti}
+                    alt="Slide 3"
+                  />
+                  <button className="py-3 px-0 flex gap-3  rounded-sm ">
+                    Bateti
+                    <img className="w-[20px] h-[20px]" src={Arrow} />
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Slide 5 */}
+          <div>
+            <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
+              <div>
+                <Link to="/vardzia" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Vardzia}
+                    alt="Slide 1"
+                  />
+                  <button className="py-3 px-0 flex gap-3  rounded-sm ">
+                    Vardzia
+                    <img className="w-[20px] h-[20px]" src={Arrow} />
+                  </button>
+                </Link>
+              </div>
+              <div>
+                <Link to="/batumi" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Batumi1}
+                    alt="Slide 2"
+                  />
+                  <button className="py-3 px-0 flex gap-3  rounded-sm ">
+                    Makhuntheti
+                    <img className="w-[20px] h-[20px]" src={Arrow} />
+                  </button>
+                </Link>
+              </div>
+              <div>
+                <Link to="/bateti" onClick={() => setActive("Tours")}>
+                  <img
+                    className="w-[400px] h-[200px] rounded-md"
+                    src={Bateti}
+                    alt="Slide 3"
+                  />
+                  <button className="py-3 px-0 flex gap-3  rounded-sm ">
+                    Bateti
                     <img className="w-[20px] h-[20px]" src={Arrow} />
                   </button>
                 </Link>
