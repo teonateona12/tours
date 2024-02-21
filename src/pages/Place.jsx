@@ -45,11 +45,18 @@ import Martvili from "../assets/martvili.jpg";
 import Martvili1 from "../assets/martvili1.jpg";
 import Martvili2 from "../assets/martvili2.jpg";
 import Martvili3 from "../assets/martvili3.jpg";
-
 import Promete from "../assets/promete.jpg";
 import Promete1 from "../assets/promete1.jpg";
 import Promete2 from "../assets/promete2.jpg";
 import Promete3 from "../assets/promete3.jpg";
+import Batumi from "../assets/batumi.jpg";
+import Batumi1 from "../assets/batumi1.jpg";
+import Batumi2 from "../assets/batumi2.jpg";
+import Batumi3 from "../assets/batumi3.jpg";
+import Svaneti from "../assets/svaneti.jpg";
+import Svaneti1 from "../assets/svaneti1.jpg";
+import Svaneti2 from "../assets/svaneti2.jpg";
+import Svaneti3 from "../assets/svaneti3.jpg";
 
 const data = [
   {
@@ -171,6 +178,27 @@ const data = [
     image3: Promete2,
     image4: Promete3,
     link: "https://www.youtube.com/watch?v=sVfh2FQdbGc",
+  },
+  {
+    id: "batumi",
+    name: "Batumi & Makhunceti: Coastal Bliss and Tranquil Monastery",
+    text: "Experience the best of both worlds with Batumi's coastal charm and Makhunceti's tranquil monastery. In Batumi, stroll along the vibrant Batumi Boulevard, marvel at the modern sculptures, and absorb the energy of the Black Sea. Then, venture to Makhunceti to find solace in its peaceful monastery surrounded by nature. This unique combination invites you to discover the dynamic allure of Batumi and the serene spirituality of Makhunceti in one unforgettable journey.",
+    image1: Batumi,
+    image2: Batumi1,
+    image3: Batumi2,
+    image4: Batumi3,
+    link: "https://www.youtube.com/watch?v=ETsuzGQ7tPw",
+  },
+
+  {
+    id: "svaneti",
+    name: "Svaneti: Majestic Mountains and Timeless Traditions",
+    text: "Embark on an adventure to Svaneti, a region where majestic mountains and ancient traditions converge in a breathtaking landscape. Explore the iconic Svanetian towers, testaments to the region's rich history. Marvel at the timeless beauty of the Upper Svaneti landscapes, where snow-capped peaks meet lush valleys. Svaneti invites you to experience the unparalleled charm of its mountainous terrain and discover the enduring traditions that make this region a cultural gem.",
+    image1: Svaneti,
+    image2: Svaneti1,
+    image3: Svaneti2,
+    image4: Svaneti3,
+    link: "https://www.youtube.com/watch?v=zIDxYeMdAhI",
   },
 ];
 
