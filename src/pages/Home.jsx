@@ -19,7 +19,7 @@ import Gudauri from "../assets/gudauri.jpg";
 import Borjomi from "../assets/borjomi.jpg";
 import Ananuri from "../assets/ananuri.jpg";
 import Rabati from "../assets/rabati.jpg";
-import Martvili from "../assets/martvili.jpg";
+import Martvili from "../assets/Martvili.jpg";
 import Svaneti from "../assets/svaneti.jpg";
 import Bateti from "../assets/bateti.jpg";
 import Vardzia from "../assets/vardzia.jpeg";

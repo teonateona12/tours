@@ -41,7 +41,7 @@ import Kutaisi from "../assets/kutaisi.jpg";
 import Kutaisi1 from "../assets/kutaisi1.jpg";
 import Kutaisi2 from "../assets/kutaisi2.jpg";
 import Kutaisi3 from "../assets/kutaisi3.jpg";
-import Martvili from "../assets/martvili.jpg";
+import Martvili from "../assets/Martvili.jpg";
 import Martvili1 from "../assets/martvili1.jpg";
 import Martvili2 from "../assets/martvili2.jpg";
 import Martvili3 from "../assets/martvili3.jpg";
