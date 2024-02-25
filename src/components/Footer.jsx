@@ -22,7 +22,7 @@ export const Footer = () => {
             <h1 className=" text-3xl mb-4">Contact</h1>
             <div>
               <h5>Gaga Lapachi</h5>
-              <h5>+995557500678</h5>
+              <h5>+995598377982</h5>
             </div>
             <div className="mt-3">
               <h5>Omar Chaghiashvili</h5>
