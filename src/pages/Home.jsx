@@ -109,12 +109,7 @@ export const Home = ({ setActive }) => {
               </p>
             </div>
           </div>
-          {/* <Link to="/about" onClick={() => setActive("About")}>
-            <button className="bg-[#BB84E8] py-3 px-5 flex gap-4 mt-3 lg:mt-14 rounded-sm">
-              More About Us
-              <img className="w-[24px] h-[24px]" src={Arrow} />
-            </button>
-          </Link> */}
+         
         </div>
       </div>
 
@@ -126,11 +121,11 @@ export const Home = ({ setActive }) => {
         <Slider {...settings} className="mt-10">
           {/* Slide 1 */}
           <div>
-            <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
+            <div className="flex  items-center gap-1 md:gap-5  lg:items-start">
               <div>
                 <Link to="/tbilisi" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Slider1}
                     alt="Slide 1"
                   />
@@ -144,7 +139,7 @@ export const Home = ({ setActive }) => {
               <div>
                 <Link to="/mtskheta" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Slider2}
                     alt="Slide 2"
                   />
@@ -157,7 +152,7 @@ export const Home = ({ setActive }) => {
               <div>
                 <Link to="/sighnaghi" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Slider3}
                     alt="Slide 3"
                   />
@@ -172,11 +167,11 @@ export const Home = ({ setActive }) => {
 
           {/* Slide 2 */}
           <div>
-            <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
+          <div className="flex  items-center gap-1 md:gap-5  lg:items-start">
               <div>
                 <Link to="/kutaisi" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Slider4}
                     alt="Slide 1"
                   />
@@ -189,7 +184,7 @@ export const Home = ({ setActive }) => {
               <div>
                 <Link to="/promete" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Slider5}
                     alt="Slide 2"
                   />
@@ -202,7 +197,7 @@ export const Home = ({ setActive }) => {
               <div>
                 <Link to="/batumi" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Batumi}
                     alt="Slide 3"
                   />
@@ -218,11 +213,11 @@ export const Home = ({ setActive }) => {
 
           {/* Slide 3 */}
           <div>
-            <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
+          <div className="flex  items-center gap-1 md:gap-5  lg:items-start">
               <div>
                 <Link to="/bodbe" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Bodbe}
                     alt="Slide 1"
                   />
@@ -235,7 +230,7 @@ export const Home = ({ setActive }) => {
               <div>
                 <Link to="/bakuriani" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Bakuriani}
                     alt="Slide 2"
                   />
@@ -248,7 +243,7 @@ export const Home = ({ setActive }) => {
               <div>
                 <Link to="/gudauri" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Gudauri}
                     alt="Slide 3"
                   />
@@ -263,11 +258,11 @@ export const Home = ({ setActive }) => {
 
           {/* Slide 4 */}
           <div>
-            <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
+          <div className="flex  items-center gap-1 md:gap-5  lg:items-start">
               <div>
                 <Link to="/ananuri" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Ananuri}
                     alt="Slide 1"
                   />
@@ -280,7 +275,7 @@ export const Home = ({ setActive }) => {
               <div>
                 <Link to="/borjomi" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Borjomi}
                     alt="Slide 2"
                   />
@@ -293,7 +288,7 @@ export const Home = ({ setActive }) => {
               <div>
                 <Link to="/rabati" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Rabati}
                     alt="Slide 3"
                   />
@@ -308,11 +303,11 @@ export const Home = ({ setActive }) => {
 
           {/* Slide 5 */}
           <div>
-            <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
+          <div className="flex  items-center gap-1 md:gap-5  lg:items-start">
               <div>
                 <Link to="/martvili" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Martvili}
                     alt="Slide 1"
                   />
@@ -325,7 +320,7 @@ export const Home = ({ setActive }) => {
               <div>
                 <Link to="/svaneti" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Svaneti}
                     alt="Slide 2"
                   />
@@ -338,7 +333,7 @@ export const Home = ({ setActive }) => {
               <div>
                 <Link to="/bateti" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Bateti}
                     alt="Slide 3"
                   />
@@ -353,11 +348,11 @@ export const Home = ({ setActive }) => {
 
           {/* Slide 5 */}
           <div>
-            <div className="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
+          <div className="flex  items-center gap-1 md:gap-5  lg:items-start">
               <div>
                 <Link to="/vardzia" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Vardzia}
                     alt="Slide 1"
                   />
@@ -370,7 +365,7 @@ export const Home = ({ setActive }) => {
               <div>
                 <Link to="/batumi" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Batumi1}
                     alt="Slide 2"
                   />
@@ -383,7 +378,7 @@ export const Home = ({ setActive }) => {
               <div>
                 <Link to="/bateti" onClick={() => setActive("Tours")}>
                   <img
-                    className="w-[400px] h-[200px] rounded-md"
+                    className="w-[200px] h-[100px] md:w-[400px] md:h-[200px] rounded-md"
                     src={Bateti}
                     alt="Slide 3"
                   />
@@ -397,47 +392,7 @@ export const Home = ({ setActive }) => {
           </div>
         </Slider>
 
-        {/* <div className="flex gap-5 flex-wrap mt-10 ">
-          <div className="relative w-fit cursor-pointer lg:w-[40%] m-auto">
-            <Link to="/tours" onClick={() => setActive("Tours")}>
-              <img className="w-[300px] h-[438px] lg:w-full" src={Tbilisi} />
-              <button className="bg-[#BB84E8] py-3 px-5 flex gap-4 absolute top-0 rounded-sm ">
-                Tours
-                <img className="w-[24px] h-[24px]" src={Arrow} />
-              </button>
-            </Link>
-          </div>
-
-          <div className="relative w-fit cursor-pointer lg:w-[40%] m-auto">
-            <Link to="/tours" onClick={() => setActive("Tours")}>
-              <img className="w-[300px] h-[438px]  lg:w-full" src={Gudauri} />
-              <button className="bg-[#BB84E8] py-3 px-5 flex gap-4 absolute top-0 rounded-sm">
-                Tours
-                <img className="w-[24px] h-[24px]" src={Arrow} />
-              </button>
-            </Link>
-          </div>
-
-          <div className="relative w-fit cursor-pointer lg:w-[40%] m-auto">
-            <Link to="/tours" onClick={() => setActive("Tours")}>
-              <img className="w-[300px] h-[438px]  lg:w-full" src={Borjomi} />
-              <button className="bg-[#BB84E8] py-3 px-5 flex gap-4 absolute top-0 rounded-sm">
-                Tours
-                <img className="w-[24px] h-[24px]" src={Arrow} />
-              </button>
-            </Link>
-          </div>
-
-          <div className="relative w-fit cursor-pointer lg:w-[40%] m-auto">
-            <Link to="/tours" onClick={() => setActive("Tours")}>
-              <img className="w-[300px] h-[438px]  lg:w-full" src={Bakuriani} />
-              <button className="bg-[#BB84E8] py-3 px-5 flex gap-4 absolute top-0 rounded-sm">
-                Tours
-                <img className="w-[24px] h-[24px]" src={Arrow} />
-              </button>
-            </Link>
-          </div>
-        </div> */}
+        
       </div>
     </div>
   );

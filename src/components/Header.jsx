@@ -7,7 +7,7 @@ import { Link, useLocation } from "react-router-dom";
 
 export const Header = ({ active, setActive }) => {
   const [pageWidth, setPageWidth] = useState(window.innerWidth);
-  const [mobileOpen, setMobileOpen] = useState(false);
+  // const [mobileOpen, setMobileOpen] = useState(false);
   const route = useLocation();
 
   useEffect(() => {
@@ -35,11 +35,11 @@ export const Header = ({ active, setActive }) => {
         {pageWidth > 640 ? (
           <>
             <Link to="/" onClick={() => setActive("Home")}>
-              <h5
+              <h1
                 className={`text-xl ${active === "Home" && "text-[#BB84E8]"}`}
               >
-                Home
-              </h5>
+                Explore the beauty
+              </h1>
             </Link>
             {/* <Link to="/about" onClick={() => setActive("About")}>
               <h5
@@ -48,13 +48,13 @@ export const Header = ({ active, setActive }) => {
                 About
               </h5>
             </Link> */}
-            <Link to="/tours" onClick={() => setActive("Tours")}>
+            {/* <Link to="/tours" onClick={() => setActive("Tours")}>
               <h5
                 className={`text-xl ${active === "Tours" && "text-[#BB84E8]"}`}
               >
                 Tours
               </h5>
-            </Link>
+            </Link> */}
             {/* <Link to="/contact" onClick={() => setActive("Contact")}>
               <h5
                 className={`text-xl ${
@@ -66,15 +66,14 @@ export const Header = ({ active, setActive }) => {
             </Link> */}
           </>
         ) : (
-          <img src={MobilHeader} onClick={() => setMobileOpen(!mobileOpen)} />
-        )}
-        {mobileOpen && (
+null        )}
+        {/* {mobileOpen && (
           <MobileHeader
             active={active}
             setActive={setActive}
             setMobileOpen={setMobileOpen}
           />
-        )}
+        )} */}
       </div>
     </div>
   );

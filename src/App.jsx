@@ -6,7 +6,6 @@ import { About } from "./pages/About";
 import { Footer } from "./components/Footer";
 import { useState } from "react";
 import { Tours } from "./pages/Tours";
-import { Contact } from "./pages/Contact";
 import { Place } from "./pages/Place";
 
 function App() {
@@ -18,10 +17,10 @@ function App() {
         <Header active={active} setActive={setActive} />
         <Routes>
           <Route path="/" element={<Home setActive={setActive} />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} />
           <Route path="/tours" element={<Tours />} />
           <Route path="/:id" element={<Place />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} /> */}
         </Routes>
       </div>
       <Footer />
