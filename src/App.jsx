@@ -18,9 +18,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home setActive={setActive} />} />
           {/* <Route path="/about" element={<About />} />
-          <Route path="/tours" element={<Tours />} />
+          <Route path="/tours" element={<Tours />} />*/}
           <Route path="/:id" element={<Place />} />
-          <Route path="/contact" element={<Contact />} /> */}
+          {/* <Route path="/contact" element={<Contact />} />  */}
         </Routes>
       </div>
       <Footer />
