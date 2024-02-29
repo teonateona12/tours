@@ -75,7 +75,7 @@ const data = [
     image2: BotanicGarden,
     image3: Mtawminda,
     image4: OldTbilisi,
-    link: "https://www.youtube.com/watch?si=mFYv9CA28uGMpR-K&fbclid=IwAR3CmHSTnPsQS6s1JLx9sBWGs8nUGbQI498xFiSq1bf7NsD2eYyRHn7KLwg&v=f3lV2SchOX8&feature=youtu.be",
+    link: "https://www.youtube.com/embed/f3lV2SchOX8?si=TEDc_gZ08-mRJsy8",
   },
   {
     id: "mtskheta",
@@ -85,7 +85,7 @@ const data = [
     image2: Mtskheta1,
     image3: Mtskheta2,
     image4: Mtskheta3,
-    link: "https://www.youtube.com/watch?si=BsHegaceph93DixZ&fbclid=IwAR2jmONx5nxWnK3sZQ2fkC6Q6YVFATeYkFd2z7CxEPyJg4lQ-05UE1-yxN8&v=es4tltVw7F4&feature=youtu.be",
+    link: "https://www.youtube.com/embed/es4tltVw7F4?si=m_A06yasShxoHu6i",
   },
   {
     id: "sighnaghi",
@@ -95,7 +95,7 @@ const data = [
     image2: Sighnaghi1,
     image3: Sighnaghi2,
     image4: Sighnaghi3,
-    link: "https://www.youtube.com/watch?si=CsgAfbWqwr3n0rZ2&fbclid=IwAR2JUCwZTUG8HNPdIos9Dgg7s4362PCWH0HTKvq36VQVXv41uuknCM38L6o&v=GvMyfgoucNo&feature=youtu.be",
+    link: "https://www.youtube.com/embed/GvMyfgoucNo?si=1WY81gh41dKS9WIM",
   },
   {
     id: "kutaisi",
@@ -105,7 +105,7 @@ const data = [
     image2: Kutaisi1,
     image3: Kutaisi2,
     image4: Kutaisi3,
-    link: "https://www.youtube.com/watch?v=UyxZoDrOdF4",
+    link: "https://www.youtube.com/embed/UyxZoDrOdF4?si=ftf9p33LuRhSbM6B",
   },
   {
     id: "promete",
@@ -115,7 +115,7 @@ const data = [
     image2: Promete1,
     image3: Promete2,
     image4: Promete3,
-    link: "https://www.youtube.com/watch?v=sVfh2FQdbGc",
+    link: "https://www.youtube.com/embed/sVfh2FQdbGc?si=5zTxgIuxrZcQ-XBA",
   },
   {
     id: "batumi",
@@ -125,7 +125,7 @@ const data = [
     image2: Batumi1,
     image3: Batumi2,
     image4: Batumi3,
-    link: "https://www.youtube.com/watch?v=ETsuzGQ7tPw",
+    link: "https://www.youtube.com/embed/ETsuzGQ7tPw?si=QX3ZVEUeXAONsqFU",
   },
   {
     id: "bodbe",
@@ -135,7 +135,7 @@ const data = [
     image2: Bodbe1,
     image3: Bodbe2,
     image4: Bodbe3,
-    link: "https://www.youtube.com/watch?si=GAGaw4E8NxRVMPrI&fbclid=IwAR1Wx3y75H6cU1pisoOx2tk9ZZLnYxv3EsbJU-LO11xBeAXlJuQ8JUMClM4&v=SIvC9craikM&feature=youtu.be",
+    link: "https://www.youtube.com/embed/SIvC9craikM?si=CnGeVcEXD3adk4mD",
   },
   {
     id: "bakuriani",
@@ -145,7 +145,7 @@ const data = [
     image2: Bakuriani1,
     image3: Bakuriani2,
     image4: Bakuriani3,
-    link: "https://www.youtube.com/watch?v=b9pUwmtPDWI",
+    link: "https://www.youtube.com/embed/b9pUwmtPDWI?si=oNheFP-SMUMqrwXV",
   },
   {
     id: "gudauri",
@@ -155,7 +155,7 @@ const data = [
     image2: Gudauri1,
     image3: Gudauri2,
     image4: Gudauri3,
-    link: "https://www.youtube.com/watch?v=J2coBioLsvs",
+    link: "https://www.youtube.com/embed/J2coBioLsvs?si=m_3iTX0AAZhgI-YS",
   },
   {
     id: "ananuri",
@@ -165,7 +165,7 @@ const data = [
     image2: Ananuri1,
     image3: Ananuri2,
     image4: Ananuri3,
-    link: "https://www.youtube.com/watch?si=eGrNtozfdANEJKba&fbclid=IwAR1uaaqP_6YvEgoylZlm4wmXrygQlEZBBp87JgZMJ7bnxpnSJhj4kcQAa60&v=vOkAP5BziHg&feature=youtu.be",
+    link: "https://www.youtube.com/embed/vOkAP5BziHg?si=HrbwFvgklOf_SpvP",
   },
   {
     id: "borjomi",
@@ -175,7 +175,7 @@ const data = [
     image2: Borjomi1,
     image3: Borjomi2,
     image4: Borjomi3,
-    link: "https://www.youtube.com/watch?v=0Ug8etBDkjY",
+    link: "https://www.youtube.com/embed/0Ug8etBDkjY?si=vi341zz6R6JMiuep",
   },
   {
     id: "rabati",
@@ -185,7 +185,7 @@ const data = [
     image2: Rabati1,
     image3: Rabati2,
     image4: Rabati3,
-    link: "https://www.youtube.com/watch?v=5KKdR-f47uw",
+    link: "https://www.youtube.com/embed/5KKdR-f47uw?si=caCe8GMXX7o40GH-",
   },
   {
     id: "martvili",
@@ -195,7 +195,7 @@ const data = [
     image2: Martvili1,
     image3: Martvili2,
     image4: Martvili3,
-    link: "https://www.youtube.com/watch?v=IuY0fCzUZ9A",
+    link: "https://www.youtube.com/embed/IuY0fCzUZ9A?si=pMCfWvnE2curjrF0",
   },
   {
     id: "svaneti",
@@ -205,7 +205,7 @@ const data = [
     image2: Svaneti1,
     image3: Svaneti2,
     image4: Svaneti3,
-    link: "https://www.youtube.com/watch?v=zIDxYeMdAhI",
+    link: "https://www.youtube.com/embed/zIDxYeMdAhI?si=khQg3m93nG1lenfD",
   },
   {
     id: "bateti",
@@ -215,7 +215,7 @@ const data = [
     image2: Bateti1,
     image3: Bateti2,
     image4: Bateti3,
-    link: "https://www.youtube.com/watch?v=w6iFM1yOJw8",
+    link: "https://www.youtube.com/embed/w6iFM1yOJw8?si=LNwWtSlevWQt46pT",
   },
   {
     id: "vardzia",
@@ -225,7 +225,7 @@ const data = [
     image2: Vardzia1,
     image3: Vardzia2,
     image4: Vardzia3,
-    link: "https://www.youtube.com/watch?v=VbvdbCVNl4c",
+    link: "https://www.youtube.com/embed/VbvdbCVNl4c?si=BTm8479GHv957J5U",
   },
 ];
 
@@ -250,8 +250,14 @@ export const Place = () => {
           <a href="#" onClick={openYoutubeLink}>
             <p>Explore the beauty in the YouTube link below:</p>
             <div className=" flex gap-2 ">
-              <img className="w-[24px] h-[24px]" src={Youtube} />
-              <p>Youtube</p>
+              <iframe
+                // width="693"
+                // height="360"
+                src={`${place.link}`}
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
           </a>
         </div>
