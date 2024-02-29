@@ -233,9 +233,6 @@ export const Place = () => {
   const route = useParams();
   const place = data.find((item) => item.id === route.id);
 
-  const openYoutubeLink = () => {
-    window.open(place.link, "_blank");
-  };
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [route.id]);
@@ -245,21 +242,20 @@ export const Place = () => {
       <p className=" text-3xl text-center">{place.name}</p>
       <h1 className=" text-center">Explore the beauty</h1>
       <div className=" flex flex-col gap-5 md:flex-row mt-5 md:mt-10">
-        <div className="md:w-[40%] md:mt-10">
-          <p className="order-2 flex mt-10 md:mt-0 mb-10">{place.text}</p>
-          <a href="#" onClick={openYoutubeLink}>
-            <p>Explore the beauty in the YouTube link below:</p>
-            <div className=" flex gap-2 ">
+        <div className="md:w-[40%]">
+          <p className="order-2 flex  mb-10">{place.text}</p>         
+            <div className=" flex gap-2 mt-5">
               <iframe
-                // width="693"
-                // height="360"
+              className="m-auto lg:m-0"
+                width="300"
+                height="300"
                 src={`${place.link}`}
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
             </div>
-          </a>
+          
         </div>
         <div className=" mt-10 md:mt-0 m-auto order-1 ">
           <div className="flex gap-3">

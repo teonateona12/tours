@@ -2,10 +2,8 @@ import "./index.css";
 import { Header } from "./components/Header";
 import { Home } from "./pages/Home";
 import { Route, Routes } from "react-router-dom";
-import { About } from "./pages/About";
 import { Footer } from "./components/Footer";
 import { useState } from "react";
-import { Tours } from "./pages/Tours";
 import { Place } from "./pages/Place";
 
 function App() {
