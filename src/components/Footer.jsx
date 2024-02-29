@@ -1,7 +1,7 @@
 import React from "react";
 import LogoBlack from "../assets/black-logo.png";
-import { Link } from "react-router-dom";
 import { useState } from "react";
+import Whatsapp from "../assets/whatsapp.svg";
 
 export const Footer = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -21,7 +21,10 @@ export const Footer = () => {
         </div>
         <div>
           <div>
-            <h1 className=" text-3xl mb-4">Contact on whatsApp</h1>
+            <div className="flex gap-2">
+              <h1 className=" text-3xl mb-4">Contact on whatsApp</h1>
+              <img className="w-[32px] h-[32px]" src={Whatsapp} />
+            </div>
             <div
               className=" cursor-pointer"
               onClick={() => {
@@ -32,7 +35,6 @@ export const Footer = () => {
               <h5>Gaga Lapachi</h5>
               <h5>+995598377982</h5>
             </div>
-
             <div
               className="mt-3 cursor-pointer"
               onClick={() => {

@@ -109,12 +109,6 @@ export const Home = ({ setActive }) => {
               </p>
             </div>
           </div>
-          {/* <Link to="/about" onClick={() => setActive("About")}>
-            <button className="bg-[#BB84E8] py-3 px-5 flex gap-4 mt-3 lg:mt-14 rounded-sm">
-              More About Us
-              <img className="w-[24px] h-[24px]" src={Arrow} />
-            </button>
-          </Link> */}
         </div>
       </div>
 
@@ -172,7 +166,7 @@ export const Home = ({ setActive }) => {
 
           {/* Slide 2 */}
           <div>
-          <div className="flex flex-col items-center gap-5 md:flex-row lg:items-start">
+            <div className="flex flex-col items-center gap-5 md:flex-row lg:items-start">
               <div>
                 <Link to="/kutaisi" onClick={() => setActive("Tours")}>
                   <img
@@ -218,7 +212,7 @@ export const Home = ({ setActive }) => {
 
           {/* Slide 3 */}
           <div>
-          <div className="flex flex-col items-center gap-5 md:flex-row lg:items-start">
+            <div className="flex flex-col items-center gap-5 md:flex-row lg:items-start">
               <div>
                 <Link to="/bodbe" onClick={() => setActive("Tours")}>
                   <img
@@ -263,7 +257,7 @@ export const Home = ({ setActive }) => {
 
           {/* Slide 4 */}
           <div>
-          <div className="flex flex-col items-center gap-5 md:flex-row lg:items-start">
+            <div className="flex flex-col items-center gap-5 md:flex-row lg:items-start">
               <div>
                 <Link to="/ananuri" onClick={() => setActive("Tours")}>
                   <img
@@ -308,7 +302,7 @@ export const Home = ({ setActive }) => {
 
           {/* Slide 5 */}
           <div>
-          <div className="flex flex-col items-center gap-5 md:flex-row lg:items-start">
+            <div className="flex flex-col items-center gap-5 md:flex-row lg:items-start">
               <div>
                 <Link to="/martvili" onClick={() => setActive("Tours")}>
                   <img
@@ -353,7 +347,7 @@ export const Home = ({ setActive }) => {
 
           {/* Slide 5 */}
           <div>
-          <div className="flex flex-col items-center gap-5 md:flex-row lg:items-start">
+            <div className="flex flex-col items-center gap-5 md:flex-row lg:items-start">
               <div>
                 <Link to="/vardzia" onClick={() => setActive("Tours")}>
                   <img
@@ -396,8 +390,6 @@ export const Home = ({ setActive }) => {
             </div>
           </div>
         </Slider>
-
-        
       </div>
     </div>
   );
