@@ -25,7 +25,7 @@ export const Footer = () => {
             <div
               className=" cursor-pointer"
               onClick={() => {
-                setPhoneNumber("+995598377982");
+                setPhoneNumber("598377982");
                 openWhatsApp();
               }}
             >
@@ -36,7 +36,7 @@ export const Footer = () => {
             <div
               className="mt-3 cursor-pointer"
               onClick={() => {
-                setPhoneNumber("+995574543543");
+                setPhoneNumber("574543543");
                 openWhatsApp();
               }}
             >
